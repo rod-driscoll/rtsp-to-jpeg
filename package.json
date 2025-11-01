@@ -8,6 +8,7 @@
     "start service": "pm2 start app.js",
     "restart service": "pm2 restart app.js",
     "stop service": "pm2 stop app.js",
+    "delete service": "pm2 delete app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Williamson",
