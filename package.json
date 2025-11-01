@@ -4,7 +4,11 @@
   "description": "Convert frame from RTSP stream and return as a JPEG",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js",
+    "start": "node app.js",
+    "start service": "pm2 start app.js",
+    "restart service": "pm2 restart app.js",
+    "stop service": "pm2 stop app.js",
+    "delete service": "pm2 delete app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Williamson",
@@ -17,6 +21,7 @@
     "helmet": "^4.4.1",
     "lodash": "^4.17.20",
     "os-monitor": "^1.0.10",
+    "pm2": "^6.0.13",
     "rtsp-ffmpeg": "^0.0.15"
   }
 }

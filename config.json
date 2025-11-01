@@ -9,5 +9,8 @@
   "streams": {
     "multiviewer": "rtsp://192.168.105.242:554/pgm",
     "camera": "rtsp://192.168.105.130:8557/h264"
+  },
+  "webserver": {
+    "port": 8080
   }
 }
