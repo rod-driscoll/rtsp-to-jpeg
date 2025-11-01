@@ -4,6 +4,7 @@
   "description": "Convert frame from RTSP stream and return as a JPEG",
   "main": "app.js",
   "scripts": {
+    "run": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Williamson",
